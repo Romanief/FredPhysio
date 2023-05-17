@@ -1,9 +1,11 @@
 import Layout from "@/components/Layout"
 
+import PictureBG from "@/components/PictureBG"
+
 export default function Home() {
   return (
     <Layout>
-      <div className="text-2xl">Ciao</div>
+      <PictureBG />
     </Layout>
   )
 }
